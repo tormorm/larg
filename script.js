@@ -26,4 +26,15 @@
       });
     });
   }
+
+  // Ameti järelevalve
+  console.log(
+    '%cLASNAMÄE RIIGIGÜMNAASIUM · TOIMIK 01',
+    'font-weight:700;color:#0f2a4a'
+  );
+  console.log(
+    'Käesolev konsool kuulub kooli valdusesse.\n' +
+    'Puudumistõend esitada vormil 51-K. Vaiet ei rahuldata.\n' +
+    'Rahastaja: https://kutify.ee'
+  );
 })();
