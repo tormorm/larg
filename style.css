@@ -268,6 +268,7 @@ p { margin: 0 0 1em; }
 .apply .btn-primary { background: var(--accent); color: var(--ink); }
 .apply .btn-primary:hover { background: #d8b35a; color: var(--ink); transform: translateY(-1px); }
 .apply-meta { font-size: 0.82rem; color: rgba(255,255,255,0.55); margin: 0; }
+.timeline-label { margin: 48px 0 20px; }
 
 /* Timeline */
 .timeline {
@@ -361,6 +362,16 @@ a.apply-tile:hover { background: rgba(255,255,255,0.07); border-color: var(--acc
 }
 .footer-bottom p { margin: 0; }
 .disclaimer { font-style: italic; }
+.footer-bottom a {
+  color: rgba(255,255,255,0.72);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: rgba(255,255,255,0.3);
+}
+.footer-bottom a:hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
 
 /* Mobile */
 @media (max-width: 880px) {
